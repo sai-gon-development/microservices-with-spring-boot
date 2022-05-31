@@ -22,7 +22,7 @@ info:
 app:
   config:
     keycloak:
-      server-url: http://localhost:8080/auth
+      server-url: http://richardvu.com:8010/auth
       realm: javatodev-internet-banking
       clientId: internet-banking-api-client
       client-secret: dd3fe18f-2843-4a6d-a815-4808e710a98a
