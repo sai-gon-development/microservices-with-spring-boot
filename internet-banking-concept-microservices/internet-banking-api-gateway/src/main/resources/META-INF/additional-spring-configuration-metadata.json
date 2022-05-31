@@ -1,0 +1,25 @@
+{
+  "properties": [
+    {
+      "name": "spring.app.config.keycloak.url",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.app.config.keycloak.url'"
+    },
+    {
+      "name": "spring.app.config.keycloak.realm",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.app.config.keycloak.realm'"
+    }
+    ,
+    {
+      "name": "spring.app.config.keycloak.client-secret",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.app.config.keycloak.client-secret'"
+    },
+    {
+      "name": "spring.app.config.keycloak.client-id",
+      "type": "java.lang.String",
+      "description": "A description for 'spring.app.config.keycloak.client-id'"
+    }
+  ]
+}
