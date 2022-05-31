@@ -23,6 +23,20 @@
       "request": "launch",
       "mainClass": "com.saigon.development.internetbankingserviceregistry.application.InternetBankingServiceRegistryApplication",
       "projectName": "internet-banking-service-registry"
+    },
+    {
+      "type": "java",
+      "name": "Fund Transfer",
+      "request": "launch",
+      "mainClass": "com.saigon.development.internetbankingfundtransferservice.application.InternetBankingFundTransferServiceApplication",
+      "projectName": "internet-banking-fund-transfer-service"
+    },
+    {
+      "type": "java",
+      "name": "User",
+      "request": "launch",
+      "mainClass": "com.saigon.development.internetbankinguserservice.application.InternetBankingUserServiceApplication",
+      "projectName": "internet-banking-user-service"
     }
   ]
 }
