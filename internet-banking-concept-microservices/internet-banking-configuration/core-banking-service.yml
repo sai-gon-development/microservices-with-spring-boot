@@ -1,11 +1,11 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/banking_core_service
+    url: jdbc:mysql://richardvu.com:3306/banking_core_service
     username: root
-    password: password
+    password: root@12
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
 
 server:
   port: 8092
