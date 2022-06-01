@@ -30,6 +30,13 @@
       "request": "launch",
       "mainClass": "com.saigon.development.application.InternetBankingApiGatewayApplication",
       "projectName": "internet-banking-api-gateway"
+    },
+    {
+      "type": "java",
+      "name": "External",
+      "request": "launch",
+      "mainClass": "com.saigon.development.application.InternetBankingExternalApplication",
+      "projectName": "internet-banking-external"
     }
   ]
 }
