@@ -16,13 +16,6 @@
       "request": "launch",
       "mainClass": "com.saigon.development.springsecurityoauth2keycloak.application.SpringSecurityOauth2KeycloakApplication",
       "projectName": "spring-security-oauth2-keycloak"
-    },
-    {
-      "type": "java",
-      "name": "Oauth2 PKCE",
-      "request": "launch",
-      "mainClass": "com.saigon.development.application.Oauth2PkceApplication",
-      "projectName": "oauth2-pkce"
     }
   ]
 }
