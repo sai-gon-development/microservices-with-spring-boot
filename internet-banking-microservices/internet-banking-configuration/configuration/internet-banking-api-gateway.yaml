@@ -56,6 +56,14 @@ spring:
           filters:
             - StripPrefix=1
 
+        ## EXTERNAL SERVICE
+        - id: internet-banking-external
+          uri: lb://internet-banking-external
+          predicates:
+            - Path=/banking-external/**
+          filters:
+            - StripPrefix=1
+
 ## SECURITY BASED CONFIGURATIONS
 # app:
 #   config:
