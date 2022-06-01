@@ -17,7 +17,7 @@ spring:
             client-id: ${app.config.keycloak.client-id}
             client-secret: ${app.config.keycloak.client-secret}
             provider: keycloak
-            redirect-uri: https://www.google.com/
+            redirect-uri: http://richardvu.com:8010/login/oauth2/code/keycloak
             scope: openid
       resourceserver:
         jwt:
