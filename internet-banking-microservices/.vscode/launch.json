@@ -23,7 +23,8 @@
       "request": "launch",
       "mainClass": "com.saigon.development.application.InternetBankingServiceRegistryApplication",
       "projectName": "internet-banking-service-registry"
-    },{
+    },
+    {
       "type": "java",
       "name": "Api Gateway",
       "request": "launch",
