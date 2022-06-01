@@ -1,4 +1,4 @@
-package com.saigon.development.springsecurityoauth2keycloak.application;
+package com.saigon.development.application;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.saigon.development.springsecurityoauth2keycloak.application.controller;
+package com.saigon.development.application.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

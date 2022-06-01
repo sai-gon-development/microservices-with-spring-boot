@@ -6,15 +6,22 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch SpringSecurityOauth2KeycloakApplication",
+      "request": "launch",
+      "mainClass": "com.saigon.development.application.SpringSecurityOauth2KeycloakApplication",
+      "projectName": "spring-security-oauth2-keycloak"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
     },
     {
       "type": "java",
-      "name": "Spring Security Oauth2 Keycloak",
+      "name": "Oauth2 - Keycloak",
       "request": "launch",
-      "mainClass": "com.saigon.development.springsecurityoauth2keycloak.application.SpringSecurityOauth2KeycloakApplication",
+      "mainClass": "com.saigon.development.application.SpringSecurityOauth2KeycloakApplication",
       "projectName": "spring-security-oauth2-keycloak"
     }
   ]
