@@ -16,6 +16,13 @@
       "request": "launch",
       "mainClass": "com.saigon.development.application.InternetBankingConfigServerApplication",
       "projectName": "internet-banking-config-server"
+    },
+    {
+      "type": "java",
+      "name": "Registry Service",
+      "request": "launch",
+      "mainClass": "com.saigon.development.application.InternetBankingServiceRegistryApplication",
+      "projectName": "internet-banking-service-registry"
     }
   ]
 }
