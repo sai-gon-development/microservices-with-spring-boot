@@ -6,13 +6,13 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch Current File",
+      "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
     },
     {
       "type": "java",
-      "name": "Launch InternetBankingConfigServerApplication",
+      "name": "Config Server",
       "request": "launch",
       "mainClass": "com.saigon.development.application.InternetBankingConfigServerApplication",
       "projectName": "internet-banking-config-server"
