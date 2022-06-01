@@ -8,3 +8,10 @@ spring:
           uri: https://github.com/sai-gon-development/microservices-with-spring-boot.git
           search-paths: internet-banking-microservices/internet-banking-configuration/configuration
           default-label: master
+  application:
+    name: internet-banking-config-server
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
