@@ -26,9 +26,9 @@ public class AccountController {
   @Autowired
   AccountService accountService;
 
-  @GetMapping("/bank-account/{account_number}")
+  @GetMapping("/bank-account/{accountNumber}")
   public ResponseEntity<BankAccount> getBankAccount(
-      @PathVariable("account_number") String accountNumber) {
+      @PathVariable("accountNumber") String accountNumber) {
     log.info("Reading account by ID {}", accountNumber);
 
     return new ResponseEntity<>(
