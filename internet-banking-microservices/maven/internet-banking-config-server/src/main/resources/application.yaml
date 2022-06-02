@@ -10,8 +10,3 @@ spring:
           default-label: master
   application:
     name: internet-banking-config-server
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8081/eureka
