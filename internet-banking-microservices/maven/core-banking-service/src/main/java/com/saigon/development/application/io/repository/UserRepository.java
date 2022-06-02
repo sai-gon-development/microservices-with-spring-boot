@@ -7,6 +7,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserRepository
-  extends PagingAndSortingRepository<UserEntity, Long> {
+    extends PagingAndSortingRepository<UserEntity, Long> {
+
   Optional<UserEntity> findByIdentificationNumber(String identificationNumber);
+
 }

@@ -25,6 +25,4 @@ public class UserRest extends RepresentationModel<UserRest> {
 
   private String identificationNumber;
 
-  private List<BankAccount> listBankAccount;
-
 }
