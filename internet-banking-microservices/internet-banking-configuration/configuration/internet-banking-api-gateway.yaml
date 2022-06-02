@@ -22,7 +22,7 @@ eureka:
     register-with-eureka: true
   instance:
     hostname: richardvu.com
-    prefer-ip-address: true
+    prefer-ip-address: false
 
 logging:
   level:
