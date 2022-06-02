@@ -21,10 +21,16 @@ eureka:
     fetch-registry: true
     register-with-eureka: true
   instance:
-    hostname: localhost
+    hostname: richardvu.com
     prefer-ip-address: true
 
 logging:
   level:
-    org.springframework.cloud.gateway: DEBUG
-    reactor.netty.http.client: DEBUG
+    org:
+      springframework:
+        cloud:
+          gateway: DEBUG
+    reactor:
+      netty:
+        http:
+          client: DEBUG

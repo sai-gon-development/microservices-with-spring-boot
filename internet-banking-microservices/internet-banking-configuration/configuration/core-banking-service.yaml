@@ -5,6 +5,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://richardvu.com:8081/eureka
+      
 spring:
   datasource:
     url: jdbc:postgresql://richardvu.com:5432/banking_core_service
