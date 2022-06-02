@@ -30,4 +30,5 @@ public class AccountController {
         accountService.readBankAccount(accountNumber),
         HttpStatus.OK);
   }
+
 }

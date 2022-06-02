@@ -10,7 +10,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class BankAccount {
+public class BankAccountRest {
 
   private Long id;
 
@@ -23,7 +23,5 @@ public class BankAccount {
   private BigDecimal availableBalance;
 
   private BigDecimal actualBalance;
-
-  private User user;
 
 }

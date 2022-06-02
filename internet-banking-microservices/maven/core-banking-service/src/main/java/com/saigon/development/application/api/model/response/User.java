@@ -18,4 +18,5 @@ public class User {
   private String identificationNumber;
 
   private List<BankAccount> listBankAccount;
+
 }
