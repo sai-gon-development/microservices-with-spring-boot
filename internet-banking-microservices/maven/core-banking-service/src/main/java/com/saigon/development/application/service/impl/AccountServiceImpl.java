@@ -26,30 +26,7 @@ public class AccountServiceImpl implements AccountService {
   ModelMapper modelMapper = new ModelMapper();
 
   @Autowired
-  BankAccountRepository bankAccountRepository;
-
-  @Autowired
   UserRepository userRepository;
-
-  @Override
-  public BankAccount readBankAccount(String accountNumber) {
-    User user = new User();
-    BankAccount bankAccount = new BankAccount();
-
-    BankAccountEntity bankAccountEntity = bankAccountRepository
-        .findByNumber(accountNumber)
-        .orElseThrow(EntityNotFoundException::new);
-
-    log.info("Banking Account Entity: {}", bankAccountEntity);
-
-    UserEntity userEntity = bankAccountEntity.getUser();
-    BeanUtils.copyProperties(userEntity, user);
-    BeanUtils.copyProperties(bankAccountEntity, bankAccount);
-
-    bankAccount.setUser(user);
-
-    return bankAccount;
-  }
 
   @Override
   public UserRest getBankAccountHATEOAS(String identificationNumber) {
