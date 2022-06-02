@@ -37,6 +37,13 @@
       "request": "launch",
       "mainClass": "com.saigon.development.application.InternetBankingExternalApplication",
       "projectName": "internet-banking-external"
+    },
+    {
+      "type": "java",
+      "name": "Banking Core",
+      "request": "launch",
+      "mainClass": "com.saigon.development.application.CoreBankingServiceApplication",
+      "projectName": "core-banking-service"
     }
   ]
 }
