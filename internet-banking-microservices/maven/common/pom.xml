@@ -15,17 +15,11 @@
   <version>1.0.0</version>
   <description>Common config for project. lombok - validation - exception</description>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <scope>provided</scope>
-    </dependency>
+  <properties>
 
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-validation</artifactId>
-    </dependency>
+  </properties>
+
+  <dependencies>
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -41,7 +35,7 @@
     <dependency>
       <groupId>org.springdoc</groupId>
       <artifactId>springdoc-openapi-ui</artifactId>
-      <version>1.6.9</version>
+      <version>${springdoc-openapi-ui.version}</version>
     </dependency>
   </dependencies>
 

@@ -25,9 +25,13 @@
 
   <properties>
     <java.version>11</java.version>
+    <modelmapper.version>3.0.0</modelmapper.version>
+    <module.version>${project.version}</module.version>
+    <spring-cloud.version>2021.0.3</spring-cloud.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <springdoc-openapi-ui.version>1.6.9</springdoc-openapi-ui.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
@@ -45,10 +49,27 @@
 
   <modules>
     <module>common</module>
+    <module>core-banking</module>
+    <module>internet-banking-config-server</module>
+    <module>internet-banking-service-registry</module>
+    <module>internet-banking-api-gateway</module>
+    <module>core-banking-service</module>
   </modules>
 
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
   <build>
-    <finalName>${project.artifactId}</finalName>
+    <finalName>${project.artifactId} ${project.version}</finalName>
   </build>
 
 </project>

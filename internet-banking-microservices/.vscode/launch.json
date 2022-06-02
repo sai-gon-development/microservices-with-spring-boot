@@ -12,14 +12,14 @@
     },
     {
       "type": "java",
-      "name": "Config Server",
+      "name": "Config Server Application",
       "request": "launch",
       "mainClass": "com.saigon.development.application.InternetBankingConfigServerApplication",
       "projectName": "internet-banking-config-server"
     },
     {
       "type": "java",
-      "name": "Registry Service",
+      "name": "Service Registry",
       "request": "launch",
       "mainClass": "com.saigon.development.application.InternetBankingServiceRegistryApplication",
       "projectName": "internet-banking-service-registry"
@@ -33,14 +33,7 @@
     },
     {
       "type": "java",
-      "name": "External",
-      "request": "launch",
-      "mainClass": "com.saigon.development.application.InternetBankingExternalApplication",
-      "projectName": "internet-banking-external"
-    },
-    {
-      "type": "java",
-      "name": "Banking Core",
+      "name": "Core Banking Service",
       "request": "launch",
       "mainClass": "com.saigon.development.application.CoreBankingServiceApplication",
       "projectName": "core-banking-service"
