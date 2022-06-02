@@ -1,0 +1,4 @@
+spring:
+  cloud:
+    config:
+      uri: http://richardvu.com:8090
