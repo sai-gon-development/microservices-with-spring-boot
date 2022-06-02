@@ -12,6 +12,7 @@
 
   <artifactId>common</artifactId>
   <name>common</name>
+  <version>1.0.0</version>
   <description>Common config for project. lombok - validation - exception</description>
 
   <dependencies>
