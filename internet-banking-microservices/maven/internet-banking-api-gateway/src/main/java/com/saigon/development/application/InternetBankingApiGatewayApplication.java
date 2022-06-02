@@ -11,6 +11,7 @@ import org.springframework.cloud.gateway.route.RouteDefinition;
 import org.springframework.cloud.gateway.route.RouteDefinitionLocator;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
+import java.util.regex.Pattern;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
@@ -34,7 +35,7 @@ public class InternetBankingApiGatewayApplication {
 		assert definitions != null;
 		definitions.stream().filter(routeDefinition -> routeDefinition.getId().matches(".*-service"))
 				.forEach(routeDefinition -> {
-					String name = routeDefinition.getId().replaceAll("-service", "");
+					String name = routeDefinition.getId().replaceAll(Pattern.quote("-service"), "");
 					GroupedOpenApi.builder().pathsToMatch("/" + name + "/**").group(name).build();
 				});
 		return groups;

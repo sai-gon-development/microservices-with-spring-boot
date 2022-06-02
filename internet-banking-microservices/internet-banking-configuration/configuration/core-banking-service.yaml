@@ -4,11 +4,11 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://richardvu.com:8081/eureka
+      defaultZone: http://localhost:8081/eureka
       
 spring:
   datasource:
-    url: jdbc:postgresql://richardvu.com:5432/banking_core_service
+    url: jdbc:postgresql://localhost:5432/banking_core_service
     username: postgres
     password: postgres@12
   jpa:
