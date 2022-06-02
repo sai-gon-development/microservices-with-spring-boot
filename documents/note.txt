@@ -1,2 +1,4 @@
 https://javatodev.com
 https://piotrminkowski.com
+
+http://admin:8083/swagger-ui/index.html
