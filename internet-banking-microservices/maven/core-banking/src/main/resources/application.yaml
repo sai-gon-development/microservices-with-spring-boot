@@ -1,0 +1,18 @@
+server:
+  port: 8084
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/banking_external_service
+    username: postgres
+    password: postgres@12
+  jpa:
+    hibernate:
+      ddl-auto: update
+  application:
+    name: core-banking-service
